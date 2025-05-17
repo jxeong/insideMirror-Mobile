@@ -32,6 +32,7 @@ function App() {
         }
       />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/schedules" element={<Schedules />} />
     </Routes>
   );
 }
